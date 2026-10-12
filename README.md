@@ -1,6 +1,6 @@
 # Entrega_Competencia01
 Repo con scripts que se usaron para generar los submits 
-Los scripts deben ejecutarse en este orden:
+Al principio de cada script está el path para poder cambiarlo. Deben ejecutarse en este orden:
 
 01_target.py (genera la columna ternaria a partir del archivo competencia_01_crudo.csv)
 
@@ -16,7 +16,6 @@ Los scripts deben ejecutarse en este orden:
 
 07_cortes_media.py (promedia las probabilidades de las semillas y genera el csv para subir al bot)
 
-En cada script al principio está el path para poder cambiarlo. 
 
 # Algunas aclaraciones
 Respecto de los faltantes se los imputó con el promedio del mes siguiente y el mes previo, a la columna ccajas_depositos de mayo se la imputó con NaN por recomendación de la cátedra, se crearon columnas de deltas y lags de 1 y 2 meses, se aplicó ranking de 0 fijo a todas las variables numéricas, se crearon columnas con flags para cuando las variables son nulas (recomendación de la cátedra)
